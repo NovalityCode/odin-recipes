@@ -1,0 +1,44 @@
+/*Odin Recipes Style Sheet*/
+/* HOME PAGE CSS*/
+a {
+     text-decoration: none; /* this gets rid of the underline for my links*/
+     color: firebrick
+}
+
+.main-title{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font: bold;
+    font-size: 55px;
+    color: firebrick;
+    background-color: rgba(210, 185, 163, 0.797);
+    border: 5px;
+    border-radius: 12px;
+    border-style: dotted;
+    border-color: firebrick;
+}
+body {
+    background-image: url("recipes/recipe_pics/Odin_background.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-color: bisque;
+    background-size: 100%;
+   
+
+}
+
+.recipe-page-links {
+    list-style: none;
+    
+    
+ 
+}
+
+button {
+    background-color: rgb(210, 185, 163);
+    text-decoration: none;
+    border: 2px solid firebrick;
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
