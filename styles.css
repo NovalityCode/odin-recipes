@@ -5,40 +5,49 @@ a {
      color: firebrick
 }
 
+button,
+.main-title {
+    color: firebrick;
+    border: 5px;
+    background-color: rgba(210, 185, 163, 0.797);
+    border-radius: 12px;
+    border-color: firebrick;
+    background: radial-gradient(rgba(210,185,163,0.797),rgba(247, 137, 26, 0.876));
+
+
+}
 .main-title{
     text-align: center;
     font-family:'Courier New', Courier, monospace;
     font: bold;
-    font-size: 55px;
-    color: firebrick;
-    background-color: rgba(210, 185, 163, 0.797);
-    border: 5px;
-    border-radius: 12px;
+    font-size: auto;
     border-style: dotted;
-    border-color: firebrick;
+    
+
+
 }
 body {
     background-image: url("recipes/recipe_pics/Odin_background.jpeg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center top;
+    background-attachment:fixed;
+    background-position: center bottom;
     background-color: bisque;
-    background-size: 100%;
+    background-size: 50% auto;
+  
+    
    
 
 }
 
 .recipe-page-links {
     list-style: none;
-    
-    
  
 }
 
 button {
-    background-color: rgb(210, 185, 163);
     text-decoration: none;
-    border: 2px solid firebrick;
-    border-radius: 12px;
     margin-bottom: 10px;
+    border-style:double;
+   width: 20%;
 }
+
